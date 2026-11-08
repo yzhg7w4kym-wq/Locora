@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Device Locator</title>
+<link rel="stylesheet" href="loc.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+#map {
+height: 350px;
+width: 100%;
+margin-top: 20px;
+border-radius: 15px;
+}
+</style>
+</head>
+<body>
+<h1>Device Locator</h1>
+<p> Find your device location easily</p>
+<button onclick="findLocation()"> Find my location </button>
+<p id="location"></p>
+<script src="loc.js"></script>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</body>
+</html>
